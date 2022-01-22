@@ -19,15 +19,14 @@ include "cssjs/css.php";
     
   }
   </style>
-  <div class="hero-wrap js-fullheight" style="background-image: url('images/cs03.jpg');">
+  <div class="hero-wrap js-fullheight" style="background-image: url('images/cs01.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-9 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>Explore <br></strong> your faviourate event</h1>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Fest starts in</p>
+            <!-- <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Fest starts in</p> -->
             <div>
-            <h1 class="mb-4"  data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong id="demo"><br></strong></h1>
+            <!-- <h1 class="mb-4"  data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong id="demo"><br></strong></h1> -->
             
             </div>
             
@@ -82,23 +81,28 @@ include "cssjs/css.php";
                 <input type="email" name="email" class="form-control field-border" placeholder="Your Email" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control field-border" name="mobile" placeholder="mobile" required>
+                <input type="text" class="form-control field-border" name="mobile" placeholder="Mobile" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control field-border" name="college" placeholder="college" required>
+                <input type="text" class="form-control field-border" name="college" placeholder="College" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control field-border" name="branch" placeholder="branch" required>
+                <input type="text" class="form-control field-border" name="branch" placeholder="Branch" required>
               </div>
-              
+              <div class="form-group">
+                <input type="text" class="form-control field-border" name="branch" placeholder="Section" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control field-border" name="branch" placeholder="Event name" required>
+              </div>
               <div class="form-group">
                 <input  value="Register" type="submit" name="signup_button" class="btn btn-primary py-3 px-5 " required>
               </div>
             </form>
-          
+            <br>
           </div>
 
-          <div class="col-md-6" id="map"></div>
+          <div class="col-md-6"><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=biet&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">make google maps responsive</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div></div>
         </div>
       </div>
     </section>
