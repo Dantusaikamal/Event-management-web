@@ -50,7 +50,7 @@
 // 									   $event_price
 // 									   <span>RS</span>
 // 								   </p>
-// 								   <p>Far far away, behind the word mountains, far from the countries</p>
+// 								   <p>More information will be added soon.</p>
 // 								   <hr>
 // 								   <p class='bottom-area d-flex'>
 // 									   <span><i class='icon-map-o'></i> Sai</span> 
