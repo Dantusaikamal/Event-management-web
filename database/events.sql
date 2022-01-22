@@ -44,7 +44,7 @@ CREATE TABLE `events` (
 INSERT INTO `events` (`event_id`, `event_title`, `event_price`, `participents`, `img_link`, `type_id`) VALUES
 (1, 'pubg', 50, 4, 'cs01.jpg', 2),
 (2, 'tech quiz', 50, 2, 'cs02.jpg', 1),
-(3, 'counter strike', 50, 1, 'cs03.jpg', 2),
+(3, 'counter strike', 50, 1, 'cs01.jpg', 2),
 (4, 'pair programming', 50, 2, 'cs01.jpg', 1),
 (5, 'seminar', 50, 1, 'cs02.jpg', 3),
 (6, 'multiple choice', 50, 1, 'cs01.jpg', 4);
