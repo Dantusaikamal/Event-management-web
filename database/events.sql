@@ -91,7 +91,13 @@ CREATE TABLE `participants` (
   `branch` varchar(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+INSERT INTO `participants` (`p_id`, `event_id`, `fullname`, `email`, `mobile`, `college`, `branch`) VALUES
+(2, 1, 'Sai', 'dantusaikamal@gmail.com', '9177114722', 'BIET', 'CSE'),
+(3, 1, 'RIthvik', 'rithvik@gmail.com', '9999999999', 'BIET', 'Pubg'),
+(4, 1, 'Pavan', 'pavan@gmail.com', '8888888888', 'BIET', 'hackathon'),
+(5, 1, 'Teja', 'teja@gmail.com', '7777777777', 'BIET', 'Pubg');
 
+--
 
 --
 -- Indexes for dumped tables
