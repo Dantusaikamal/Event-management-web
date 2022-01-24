@@ -21,3 +21,5 @@ Event Management System is a web application developed using PHP, MySQL that can
 With most universities shifting to online mode of conducting events and fests, there involves a need of a medium, or a system to help management the events that are being conducted. The students as well as the faculties can make use of such system to display information about the various events are being conducted which allows interested users directly register to the event that fascinates them.  
 
 Event Management System is aimed to assist in the exact manner. Event Management System is a web application, which allows users access the system directly with the help of a browser without installing any mobile application. This increases the accessibility of the application. The web application is developed using PHP, MySQL, HTML and CSS. PHP is used for server-side scripting of the web application. And HTML, CSS, Styled Components are used for the frontend part of the application. The Event Management System is deployed in Heroku Cloud. 
+
+### Research Paper: https://www.researchgate.net/publication/358045975_Event_Management_System
